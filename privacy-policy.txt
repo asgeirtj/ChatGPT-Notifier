@@ -1,0 +1,32 @@
+Privacy Policy for ChatGPT Notifier Extension
+
+Last Updated:2025-01-09
+
+Summary:
+This extension does not collect, store, transmit, or process any user data whatsoever.
+
+Detailed Policy:
+
+1. Data Collection: NONE
+- We do not collect any personal information
+- We do not collect any usage data
+- We do not use cookies
+- We do not use analytics
+- We do not track user behavior
+
+2. Technical Operation:
+- The extension only monitors the presence/absence of the "Stop" button on chatgpt.com
+- This monitoring is done locally in your browser
+- No information is sent anywhere outside your browser
+- Volume settings are stored locally in your browser only
+
+3. Third-Party Access: NONE
+- We do not share any data with third parties
+- We do not have any data to share
+- No external services are used
+
+4. Contact:
+For any questions about this privacy policy, contact: asgeirtj@gmail.com
+
+5. Changes to This Policy:
+If we make any changes to this policy, they will only be to clarify our zero-data-collection stance.
