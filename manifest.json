@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Notifier",
+  "version": "1.0",
+  "description": "Plays a notification sound when ChatGPT has finished responding.",
+  "permissions": [],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "icons": {
+    "16": "img/logo-16.png",
+    "48": "img/logo-48.png",
+    "128": "img/logo-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "img/logo-16.png",
+      "19": "img/logo-19.png",
+      "38": "img/logo-38.png",
+      "48": "img/logo-48.png",
+      "128": "img/logo-128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["audio/notification.mp3"],
+      "matches": ["https://chatgpt.com/*"]
+    }
+  ]
+}
